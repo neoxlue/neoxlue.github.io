@@ -1,0 +1,53 @@
+@import url('https://fonts.cdnfonts.com/css/twilight-lechy');
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+body{
+  background-color: black; /* Darkens the image with 30% black */
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-image: linear-gradient( 179.6deg, rgba(0,0,0,1) 0.2%, rgba(255,255,255,1) 99.8%);
+}
+
+h1 {
+  color: rgb(172, 67, 166);
+  font-size: 100px;
+  text-align: center;
+  user-select: none;
+  font-family: 'twilight lechy', sans-serif;
+  font-family: 'Twilight Lechy Bold', sans-serif;
+}
+
+p{
+  text-align: center;
+  padding-left: 00x;
+  font-weight: 600;
+  font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+  color: white;
+  display: block;
+  font-size: 20px;
+
+}
+ .emo{
+
+ }
+
+footer {
+  padding: 40px 0;
+  color: white;
+  background: rgb(0, 0, 0);
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+::selection {
+  border-radius: 10px;
+  background-color: #ffc107; /* Light blue background */
+  color: #000000; /* White text color */
+}
